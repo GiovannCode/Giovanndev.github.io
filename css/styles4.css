@@ -1,0 +1,59 @@
+@media screen and (max-width:900px){
+    header{
+        height: 160px;
+    }
+    .imagen-port{
+        width: 44%;
+        right: 20px;
+      }
+      nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+      }
+      .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .content-foo h4{
+        border: none;
+      }
+      .content-foo p{
+        color: #ccc;
+        border-bottom: 1px groove;
+        padding-bottom: 20px;
+      }
+      .titulo-final{
+        font-size: 20px;
+      }
+}
+@media screen and (max-width:500px) {
+    header {
+        height: 200px;
+    }
+    .brand img {
+    width: 230px;
+    margin-right: 1px;
+    }
+
+
+    nav {
+        text-align: center;
+        padding: 30px 0 0 0;
+     }
+
+    nav>a {
+        margin-right: 5px;
+    }
+
+    .imagen-port {
+        width: 100%;
+        margin-right: 5px;
+    }
+   
+
+
+}

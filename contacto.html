@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="/images/HYDRATOR.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/63c8f1ddb0.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.2.1.js"></script>
+    <script src="/js/script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet"/>
+</head>
+<body class="formulario" data-aos="fade-up">
+    
+
+    <section class="form-wrap">
+
+        <section class="contacto-info">
+            <section class="info-titulo">
+                <span class="fa-solid fa-circle-user"></span>
+                <h2>INFORMACIÓN<br>DE CONTACTO</h2>
+            </section>
+            <section class="info-items">
+                <p><span class="fa-solid fa-envelope"></span>carlos_hydrator@hotmail.com</p>
+                <p><span class="fa-solid fa-phone"></span>488-2026/844-271-0638</p>
+                <p><span class="fa-brands fa-whatsapp"></span> <a href="https://wa.link/j64xy4">WhatsApp</a></p>
+                
+            </section>
+        </section>
+        <form action="/correos.php" method="post" class="formulario-contacto">
+            <h2>Contáctanos</h2>
+            <div class="user-info">
+                <label for="names">Nombre *</label>
+                <input type="text" id="names" required="true" name="nombre">
+
+                <label for="phone">Telefono/Celular </label>
+                <input type="text" id="phone"  name="telefono">
+
+                <label for="email">Correo Electrónico * </label>
+                <input type="text" id="email" required="true" name="correo" >
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" required="true" name="mensaje"></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+
+        </form>
+
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
